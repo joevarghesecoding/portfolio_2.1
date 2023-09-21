@@ -1,0 +1,31 @@
+
+.link {
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    text-decoration: none;
+    color: inherit;
+}
+
+.home{
+    order: 1;
+    flex-grow: 5;
+    font-family: var(--name-font);
+    text-align: center;
+    transform: scale(2.8); 
+}
+
+.home:hover {
+    color: rgba(247,250,85,100);
+}
+
+.navigation {
+    order: 2;
+    flex-grow: 1;
+    font-family: var(--text-font);
+    text-align: center;
+    transform: scale(1.3);
+}
+
+.navigation:hover {
+    color: rgba(247,250,85,100);
+}

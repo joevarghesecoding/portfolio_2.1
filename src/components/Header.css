@@ -1,0 +1,9 @@
+.Header_div {
+    background-color: var(--background-color);
+    color:var(--foreground-color);
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    align-content: center;
+    transition: background-color 0.3s ease;
+}

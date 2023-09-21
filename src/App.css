@@ -1,38 +1,30 @@
+:root {
+  --background-color: rgba(0,106,77,100);
+  --foreground-color: rgba(247,250,234,100);
+  --tile-color: rgba(242,242,242,100);
+  --text-color: rbga(0,0,0,100);
+  --name-font: sacramento;
+  --text-font: Big Caslon;
+}
+
+#root {
+  height: 220rem;
+  width: 100%;
+}
+
+
 .App {
-  text-align: center;
+  width: 100%;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.content {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
+  height: 100%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.column {
+  flex: 1;
 }
